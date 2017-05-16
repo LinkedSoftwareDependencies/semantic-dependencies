@@ -1,7 +1,6 @@
 
 const child_process = require('child_process');
 const N3 = require('n3');
-const semver = require('semver');
 const validUrl = require('valid-url');
 
 
@@ -70,8 +69,7 @@ function handleRoot (json)
 function handleDependency (parent, key, json)
 {
     let uri;
-    let idx = json.from.lastIndexOf('@');
-    if (idx > 0 && semver.validRange(json.from.substring(idx+1)))
+    if (json.from.startsWith(key + '@'))
         uri = domain + 'bundles/npm/' + key + '/' + json.version;
     else if (validUrl.isUri(json.resolved))
         uri = json.resolved;
