@@ -69,7 +69,7 @@ function handleRoot (json)
 function handleDependency (parent, key, json)
 {
     let uri;
-    if (json.from.startsWith(key + '@'))
+    if (json.from && json.from.startsWith(key + '@'))
         uri = domain + 'bundles/npm/' + key + '/' + json.version;
     else if (validUrl.isUri(json.resolved))
         uri = json.resolved;
