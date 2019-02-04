@@ -51,3 +51,8 @@ format: text/turtle, application/n-triples, etc. (all those supported by N3.js)
 `FOLDER` needs to be the root folder of the project.
 `-r` is for changing the root URI that needs to be used for this project.
 The default is `#software`.
+
+## License
+This software is written by Joachim Van Herwegen.
+
+This code is released under the [MIT license](http://opensource.org/licenses/MIT).
