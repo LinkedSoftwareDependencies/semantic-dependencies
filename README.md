@@ -1,4 +1,4 @@
-# Node dependency parser
+# Semantic Dependencies
 
 This tool converts the node_modules dependencies of an npm project to RDF.
 Currently this is done by parsing the output of the `npm ls` command,
@@ -35,7 +35,7 @@ This output shows the packages that were installed for this package when this wa
 
 The exact command line options are
 ```
-usage: node index.js [-r root] [-f format] FOLDER
+usage: semantic-dependencies [-r root] [-f format] FOLDER
   -r root   : URI to use for the root module.
   -f format : Output format, see below for a full list of supported formats
 format: text/turtle, application/n-triples, etc. (all those supported by N3.js)

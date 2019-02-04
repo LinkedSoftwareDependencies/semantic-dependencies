@@ -7,7 +7,7 @@ const validUrl = require('valid-url');
 let args = require('minimist')(process.argv.slice(2));
 if (args.h || args.help || args._.length !== 1)
 {
-    console.error('usage: node index.js [-r root] [-f format] FOLDER');
+    console.error('usage: semantic-dependencies [-r root] [-f format] FOLDER');
     console.error('  -r root   : URI to use for the root module.');
     console.error('  -f format : Output format, see below for a full list of supported formats');
     console.error('format: text/turtle, application/n-triples, etc. (all those supported by N3.js)');

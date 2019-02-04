@@ -1,9 +1,9 @@
 {
-  "name": "node-dependency-parser",
+  "name": "semantic-dependencies",
   "version": "0.1.1",
   "description": "Convert npm dependencies to RDF.",
   "bin": {
-      "node-dependency-parser": "index.js"
+      "semantic-dependencies": "index.js"
   },
   "author": {
     "name": "Joachim Van Herwegen",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LinkedSoftwareDependencies/node-dependency-parser.git"
+    "url": "https://github.com/LinkedSoftwareDependencies/semantic-dependencies.git"
   },
   "main": "index.js",
   "keywords": [
