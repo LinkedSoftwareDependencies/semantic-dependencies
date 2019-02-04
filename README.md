@@ -33,9 +33,17 @@ Sample output when this is executed on its own folder:
 
 This output shows the packages that were installed for this package when this was executed.
 
-The exact command line options are
+
+## Install
+
+This package can be installed via npm.
+
+`$ npm install -g semantic-dependencies`
+
+## Usage
+
 ```
-usage: semantic-dependencies [-r root] [-f format] FOLDER
+semantic-dependencies [-r root] [-f format] FOLDER
   -r root   : URI to use for the root module.
   -f format : Output format, see below for a full list of supported formats
 format: text/turtle, application/n-triples, etc. (all those supported by N3.js)
