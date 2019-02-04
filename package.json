@@ -2,6 +2,9 @@
   "name": "node-dependency-parser",
   "version": "0.1.1",
   "description": "Convert npm dependencies to RDF.",
+  "bin": {
+      "node-dependency-parser": "index.js"
+  },
   "author": {
     "name": "Joachim Van Herwegen",
     "email": "joachim.vanherwegen@ugent.be"
