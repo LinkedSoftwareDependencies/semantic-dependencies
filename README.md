@@ -1,5 +1,7 @@
 # Semantic Dependencies
 
+[![npm version](https://badge.fury.io/js/semantic-dependencies.svg)](https://www.npmjs.com/package/semantic-dependencies)
+
 This tool converts the node_modules dependencies of an npm project to RDF.
 Currently this is done by parsing the output of the `npm ls` command,
 while in the future we also want to be able to simply parse a given `node_modules` folder.
