@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 const child_process = require('child_process');
 const N3 = require('n3');
 const validUrl = require('valid-url');
